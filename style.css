@@ -1,0 +1,181 @@
+/*
+Theme Name: Yaminay
+Theme URI: http://amerkhalid.com/
+Description: The minimilist theme for portfolios. No comments, or indivdual pages for post are supported. No large images are supported.
+Version: 1.0
+Author: Amer Khalid
+Tags:  white, light, silver, two-columns, fixed-width
+*/
+
+body, h1, h2, h3, h4, h5, h6, blockquote, p, form{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Sans-serif, verdana, helvetica, georgia;
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    vertical-align: top;
+    background: #ffffff;
+    color: #919191;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #919191;
+    border: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ff3399;
+}
+
+#wrapper{
+        padding-top: 60px;
+
+
+}
+
+
+/* Header section */
+
+#header {
+	min-height: 70px;
+}
+
+img {
+	border: none;
+}
+
+/******************************
+Main Content 
+*/
+#content{
+    float: right;
+    width: 600px; 
+}
+
+.post {
+
+	
+}
+.post h2{
+    font-size: 14px;
+    text-align: center;
+}
+
+.entry{
+    line-height: 18px;
+}
+
+.entry p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.navigation{
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li#previous {
+    float: left;
+    padding-left: 47%;
+    
+}
+
+li#next {
+    float: right;
+    padding-right: 47%;
+    
+}
+
+#image_click_dialog {
+	text-align: center;
+	background-color: #eee;
+	border-color: silver;
+	border-style: solid;
+	border-width: thin;
+	width: 23%;
+	margin-left: 12%;
+	margin-top: 25px;
+	position: absolute; 
+}
+
+.alignnone, .aligncenter, .alignleft, .wp-caption img { 
+    border: none; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.wp-caption-text {
+    display: block;
+    text-align: center; 
+    font-style: italic; 
+}
+
+/**************************** 
+Side Bar 
+*/
+.sidebar{
+    float: left;
+    width: 200px;
+    height: 400px;
+    background: #FFF;
+    margin: 0px;
+
+    display: inline;
+    border: none;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+.sidebar ul li{
+    padding: 10px 0 10px 0;
+}
+
+.sidebar ul li h2{
+    font-size: 14px;
+}
+
+.sidebar ul ul li{
+    padding: 0;
+}
+
+/*
+Footer
+*/
+#footer{
+    clear: both;
+    float: left;
+    width: 800px;
+    padding-top: 40px;
+}
+
+#footer p{
+    line-height: 18px;
+}

@@ -7,16 +7,9 @@
 			while(have_posts()) {
 				the_post();
 			?>
-			<div class="navigation">
-				<ul>
-					<li id="previous">
-						<?php posts_nav_link(' ', '<img src="' . get_bloginfo('template_directory') .'/img/left.gif" />', ' '); ?>
-					</li>
-					<li id="next">
-						<?php posts_nav_link(' ', ' ', '<img src="' . get_bloginfo('template_directory') .'/img/right.gif" />'); ?>
-					</li>
-				</ul>
-			</div>
+			
+			<?include('navigation_arrows.php');?>
+
 			<div class="post">
 				<div id="image_click_dialog" style="display: none;">
 					Use arrows above to navigate
